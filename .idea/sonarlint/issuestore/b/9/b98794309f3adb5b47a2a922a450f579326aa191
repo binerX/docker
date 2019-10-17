@@ -1,0 +1,22 @@
+
+nsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(£Ä«òøÿÿÿÿ8‚˜»‰—-
+nsquid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(Á¶Å×øÿÿÿÿ8‚˜»‰—-
+isquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(ƒèõ8ˆŽÊ£š-
+isquid:CommentedOutCodeLinex"<This block of commented-out lines of code should be removed.(ÔÀÏê8‚˜»‰—-
+nsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(¯†½èùÿÿÿÿ8µÛÐ­—-
+jsquid:CommentedOutCodeLine€"<This block of commented-out lines of code should be removed.(ƒèõ8€¢Ê£š-
+Osquid:S1481r",Remove this unused "elastic" local variable.(ˆííþÿÿÿÿ8ˆŽÊ£š-
+dsquid:S21426"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8‚˜»‰—-
+^squid:S1854r";Remove this useless assignment to local variable "elastic".(ˆííþÿÿÿÿ8ˆŽÊ£š-
+Gsquid:S1068"*Remove this unused "LOGGER" private field.(Î®žo8‚˜»‰—-
+isquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(æ’­ð8¯¥¹ü—-
+isquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(˜»Åƒ8‚˜»‰—-
+Osquid:S1481|",Remove this unused "elastic" local variable.(ˆííþÿÿÿÿ8€¢Ê£š-
+Fsquid:S11487"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8‚˜»‰—-
+^squid:S1854|";Remove this useless assignment to local variable "elastic".(ˆííþÿÿÿÿ8€¢Ê£š-
+nsquid:CommentedOutCodeLined"<This block of commented-out lines of code should be removed.(Õñ›¶ÿÿÿÿÿ8‚˜»‰—-
+]squid:S1155‰">Use isEmpty() to check whether the collection is empty or not.(Êµó‹8‚˜»‰—-
+hsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(À½É|8‚˜»‰—-
+ksquid:S1871w"MThis branch's code block is the same as the block for the branch on line 112.(å¥ž‡8€¢Ê£š-
+Œsquid:S1319†"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ŠŒû­8‚˜»‰—-
+jsquid:S00112Y"FDefine and throw a dedicated exception instead of using a generic one.(ñÈ‡þÿÿÿÿ8‚˜»‰—-

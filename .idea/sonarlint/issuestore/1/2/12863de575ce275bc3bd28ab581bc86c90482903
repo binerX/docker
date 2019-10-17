@@ -1,0 +1,42 @@
+
+Nsquid:S00108Ù")Either remove or fill this block of code.(³ÆöÛùÿÿÿÿ8Ñú¶›š-
+osquid:CommentedOutCodeLine¢"<This block of commented-out lines of code should be removed.(«ˆ˜Ùùÿÿÿÿ8Ñú¶›š-
+Ysquid:S1141¿"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ñú¶›š-
+Gsquid:S1148Ç"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ñú¶›š-
+Bsquid:S1481Î"*Remove this unused "index" local variable.(ˆÕËó
+jsquid:S1192R"GDefine a constant instead of duplicating this literal "t_user" 4 times.(ñûôêùÿÿÿÿ8ë—Ö›š-
+Ysquid:S1141á"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ñú¶›š-
+Ysquid:S1141”"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ñú¶›š-
+^squid:CallToDeprecatedMethodã".Remove this use of "delete"; it is deprecated.(÷¹áë8Ñú¶›š-
+osquid:CommentedOutCodeLineû"<This block of commented-out lines of code should be removed.(„­ÆÃÿÿÿÿÿ8Ñú¶›š-
+Ksquid:S1481Ñ",Remove this unused "version" local variable.(ÚÅý¬8Ñú¶›š-
+Psquid:S1481§",Remove this unused "version" local variable.(‰ü¨‰ùÿÿÿÿ8Ñú¶›š-
+Qsquid:S1481«"2Remove this unused "sourceAsBytes" local variable.(Îðâõ8Ñú¶›š-
+bsquid:CallToDeprecatedMethodq".Remove this use of "create"; it is deprecated.(¢‚«Žüÿÿÿÿ8Ñú¶›š-
+osquid:CommentedOutCodeLine±"<This block of commented-out lines of code should be removed.(ú¹íÔÿÿÿÿÿ8Ñú¶›š-
+jsquid:CommentedOutCodeLineû"<This block of commented-out lines of code should be removed.(ÈÏƒÖ8Ñú¶›š-
+ksquid:S001001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ŸÞïþÿÿÿÿ
+ssquid:S00100ñ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÅ…êýÿÿÿÿ8Ñú¶›š-
+Œsquid:UselessImportCheck
+"aRemove this unused import 'org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest'.(øÂÎÚ8žð´›š-
+Gsquid:S1148å"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ñú¶›š-
+Osquid:S1481‘"+Remove this unused "client" local variable.(±²ˆÅüÿÿÿÿ8Ñú¶›š-
+osquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(„­ÆÃÿÿÿÿÿ8Ñú¶›š-
+Fsquid:S1481Ð"'Remove this unused "id" local variable.(Ñ¤èÝ8Ñú¶›š-
+Osquid:S1481ª"0Remove this unused "sourceAsMap" local variable.(À»‘–8Ñú¶›š-
+squid:S1192™"[Define a constant instead of duplicating this literal "æ²¡æœ‰æ‰¾åˆ°è¯¥idçš„æ–‡æ¡£" 3 times.(ëÕšËùÿÿÿÿ8Ñú¶›š-
+Hsquid:S1481ñ")Remove this unused "type" local variable.(¥…ž‡8Ñú¶›š-
+[squid:CallToDeprecatedMethod–"+Remove this use of "get"; it is deprecated.(Ã´ÑÛ8Ñú¶›š-
+\squid:CallToDeprecatedMethodÁ"-Remove this use of "index"; it is deprecated.(À ‡q8Ñú¶›š-
+nsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(Äú–¯úÿÿÿÿ8ÕÆ½›š-
+Asquid:S1481Ï")Remove this unused "type" local variable.(È’ÉÏ
+Isquid:S1481ð"*Remove this unused "index" local variable.(þ¦„—8Ñú¶›š-
+Psquid:S1481ô",Remove this unused "version" local variable.(£©¥€øÿÿÿÿ8Ñú¶›š-
+ssquid:S00100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½àðƒøÿÿÿÿ8Ñú¶›š-
+osquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(æÏ©¹úÿÿÿÿ8Ñú¶›š-
+^squid:S1854‘":Remove this useless assignment to local variable "client".(±²ˆÅüÿÿÿÿ8Ñú¶›š-
+osquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÎõØ¬ùÿÿÿÿ8Ñú¶›š-
+nsquid:S00100Ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®µØÔ8Ñú¶›š-
+jsquid:CommentedOutCodeLine”"<This block of commented-out lines of code should be removed.(Å’áú8àë“¡š-
+Fsquid:S1148y"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ñú¶›š-
+Gsquid:S1148Š"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ñú¶›š-

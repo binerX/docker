@@ -1,0 +1,10 @@
+
+;squid:S2629#"$Invoke method(s) only conditionally.(õÑ•¼
+;squid:S2629."$Invoke method(s) only conditionally.(õÑ•¼
+;squid:S26298"$Invoke method(s) only conditionally.(õÑ•¼
+psquid:S1192#"YDefine a constant instead of duplicating this literal "å…¥å‚æ£€æŸ¥Exception:{}" 3 times.(õÑ•¼
+fsquid:S00100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë×
+?squid:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+vsquid:S1149!"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+vsquid:S1149,"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+vsquid:S11496"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰

@@ -1,0 +1,63 @@
+
+Isquid:S1135g"2Complete the task associated to this TODO comment.(Ó˝∆ò
+Fsquid:S1481Ò".Remove this unused "totalHits" local variable.(Ø–ªù
+hsquid:CommentedOutCodeLineß"<This block of commented-out lines of code should be removed.(ÿ»Òô˚ˇˇˇˇ
+Qsquid:S1481‚"4Remove this unused "terminatedEarly" local variable.(ïıÃ“˘ˇˇˇˇ
+hsquid:CommentedOutCodeLine’"<This block of commented-out lines of code should be removed.(†„™˛ˇˇˇˇ
+csquid:CommentedOutCodeLineú"<This block of commented-out lines of code should be removed.(æÌÉ»
+Jsquid:S1481„"-Remove this unused "timedOut" local variable.(õöΩÄ˘ˇˇˇˇ
+asquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(öèó'
+Nsquid:S1481Ë"1Remove this unused "failedShards" local variable.(êª∫§ˇˇˇˇˇ
+Wsquid:CallToDeprecatedMethod¬".Remove this use of "search"; it is deprecated.(ˇ¨÷•
+hsquid:CommentedOutCodeLineî"<This block of commented-out lines of code should be removed.(˝§ß¡¯ˇˇˇˇ
+Dsquid:S1481È",Remove this unused "failure" local variable.(·ÂçÃ
+csquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(é…ë”
+hsquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(≈∫√ﬂ˙ˇˇˇˇ
+csquid:CommentedOutCodeLine∏"<This block of commented-out lines of code should be removed.(â≈≥¶
+csquid:CommentedOutCodeLine€"<This block of commented-out lines of code should be removed.(¶¡ÖÌ
+Asquid:S1481·")Remove this unused "took" local variable.(‹¬œ˜
+Fsquid:S1481Ó".Remove this unused "totalHits" local variable.(Ø–ªù
+Rsquid:S1481Á"5Remove this unused "successfulShards" local variable.(ñ√ÊÛ¯ˇˇˇˇ
+gsquid:CommentedOutCodeLinex"<This block of commented-out lines of code should be removed.(Ò∑¢•¯ˇˇˇˇ
+csquid:CommentedOutCodeLine¶"<This block of commented-out lines of code should be removed.(»˜àØ
+Msquid:S1481Ê"0Remove this unused "totalShards" local variable.(ê§ô¸¸ˇˇˇˇ
+hsquid:CommentedOutCodeLineØ"<This block of commented-out lines of code should be removed.(ùø∆ô˚ˇˇˇˇ
+Wsquid:CallToDeprecatedMethodÁ".Remove this use of "search"; it is deprecated.(ˇ¨÷•
+hsquid:CommentedOutCodeLineó"<This block of commented-out lines of code should be removed.(ıˇçÚ˛ˇˇˇˇ
+Bsquid:S1481˚"*Remove this unused "score" local variable.(õÛ•É
+esquid:S1192á"HDefine a constant instead of duplicating this literal "  type:" 3 times.(ûºÌç¸ˇˇˇˇ
+osquid:S3776√"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÙÃõê˛ˇˇˇˇ
+@squid:S1148á"#Use a logger to log this exception.(Ä…‘Ö˝ˇˇˇˇ
+csquid:CommentedOutCodeLine“"<This block of commented-out lines of code should be removed.(â≠ÕÍ
+hsquid:CommentedOutCodeLineç"<This block of commented-out lines of code should be removed.(“Ã‚ñ¯ˇˇˇˇ
+Bsquid:S1481ı"*Remove this unused "score" local variable.(õÛ•É
+Ysquid:CallToDeprecatedMethod[",Remove this use of "bulk"; it is deprecated.(Á∂©øˇˇˇˇˇ
+fsquid:S00100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙﬂØ¶
+hsquid:CommentedOutCodeLineÇ"<This block of commented-out lines of code should be removed.(ùø∆ô˚ˇˇˇˇ
+csquid:S1192á"FDefine a constant instead of duplicating this literal "  id:" 3 times.(ûºÌç¸ˇˇˇˇ
+csquid:CommentedOutCodeLineå"<This block of commented-out lines of code should be removed.(£€ıã
+Isquid:S1135k"2Complete the task associated to this TODO comment.(∆™¿˛
+hsquid:CommentedOutCodeLineÉ"<This block of commented-out lines of code should be removed.(ñ€Œç˙ˇˇˇˇ
+gsquid:CommentedOutCodeLineI"<This block of commented-out lines of code should be removed.(µú∂î˘ˇˇˇˇ
+]squid:S1192B"FDefine a constant instead of duplicating this literal "field" 3 times.(”˝£ü
+Csquid:S1481‡"+Remove this unused "status" local variable.(Å õª
+Isquid:S1135o"2Complete the task associated to this TODO comment.(Ñ—ôﬁ
+isquid:CommentedOutCodeLineˇ"<This block of commented-out lines of code should be removed.(¸Øˇf8‚Œ·£ö-
+Esquid:S1481Ú"-Remove this unused "maxScore" local variable.(ˆıõË
+Wsquid:CallToDeprecatedMethod€".Remove this use of "search"; it is deprecated.(ˇ¨÷•
+]squid:S1192A"FDefine a constant instead of duplicating this literal "sunny" 6 times.(Å§ﬁñ
+hsquid:CommentedOutCodeLineØ"<This block of commented-out lines of code should be removed.(∂∞¶îˇˇˇˇˇ
+csquid:CommentedOutCodeLineæ"<This block of commented-out lines of code should be removed.(Ì•ªÕ
+msquid:S1192h"VDefine a constant instead of duplicating this literal "ÊâπÈáèÊèíÂÖ•ÊàêÂäü : " 3 times.(ô≤Ä´
+hsquid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(‹≤´‘˛ˇˇˇˇ
+hsquid:CommentedOutCodeLineò"<This block of commented-out lines of code should be removed.(ùø∆ô˚ˇˇˇˇ
+csquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(›Ì∑ì
+lsquid:S00100√"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÃõê˛ˇˇˇˇ
+osquid:CommentedOutCodeLineª"<This block of commented-out lines of code should be removed.(ªûùï˚ˇˇˇˇ8Îçƒ¬ì-
+bsquid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(¶Úó
+Wsquid:CallToDeprecatedMethod£".Remove this use of "search"; it is deprecated.(ˇ¨÷•
+dsquid:S1192á"GDefine a constant instead of duplicating this literal "index:" 3 times.(ûºÌç¸ˇˇˇˇ
+csquid:CommentedOutCodeLine‘"<This block of commented-out lines of code should be removed.(ñıﬁΩ
+csquid:CommentedOutCodeLine¥"<This block of commented-out lines of code should be removed.(ñÆõß
+lsquid:S00100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ÈË°¸ˇˇˇˇ
+csquid:CommentedOutCodeLine£"<This block of commented-out lines of code should be removed.(„∞Ù≠

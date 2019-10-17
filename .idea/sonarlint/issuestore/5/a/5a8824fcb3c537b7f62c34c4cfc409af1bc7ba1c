@@ -1,0 +1,8 @@
+
+fsquid:S4488@"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(½·Ï8õÛœÄ“-
+ksquid:S4488'"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(à‰ºĞúÿÿÿÿ8õÛœÄ“-
+fsquid:S4488G"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(û”„8õÛœÄ“-
+dsquid:S1192-"FDefine a constant instead of duplicating this literal "hello" 4 times.(¹Œìí8¥Öé™š-
+ysquid:S1488C"[Immediately return this expression instead of assigning it to the temporary variable "str".(Ãâ°ö8õÛœÄ“-
+ksquid:S44882"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(¾¼‹›úÿÿÿÿ8³Éõ™š-
+qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Éªò•şÿÿÿÿ8õÛœÄ“-
