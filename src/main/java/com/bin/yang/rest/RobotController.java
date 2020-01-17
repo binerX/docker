@@ -33,10 +33,15 @@ public class RobotController {
     @RequestMapping(value = "/getMsg", method = RequestMethod.GET)
     @ResponseBody
     public String getMsg(String keyword){
+        System.out.println(new Date().toLocaleString()+"-----"+"参数 : "+keyword);
         JSONObject jsonObject = Http.HttpGetClient(Constant.URL+keyword);
-        System.out.println(new Date().toLocaleString()+"-----"+jsonObject);
         if(jsonObject.getString("result").equals("0")){
-            return jsonObject.getString("content");
+            String content = jsonObject.getString("content");
+            if(content.indexOf("{br}") > -1){
+                content = content.replace("{br}", "\n");
+            }
+            System.out.println(new Date().toLocaleString()+"-----"+content);
+            return content;
         }
         return "稍后再试 , 菲菲正在策划大事 . ";
     }

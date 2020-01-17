@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Biner</title>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="./test.js"></script>
+
+</head>
+
+<body>
+<center>
+    <br><br>
+    <img class="img-responsive" alt="App Logo" th:src="@{/ffgaliao.jpg}" th:width="200" th:height="200"/>
+    <br>
+    <h4 th:inline="text">你好, 我是. <font color="#a52a2a">菲菲</font> ❤ </h4>
+    <br>
+    <br><br>
+    <h9 th:inline="text"> 支持功能：天气、翻译、藏头诗、笑话、歌词、计算、查询、IP、手机号归属、人工智能聊天。</h9>
+
+    <br><br>
+    <div class="input-group" style="width: 620px">
+        <input type="text" class="form-control" style="width: 600px" id="keyword"  placeholder="在此输入你要说的内容 . . ." />
+        <div class="input-group-btn">
+            <button type="button" th:onclick="|javascript:restSearch()|" class="btn btn-primary" style="width: 120px"><b>提交会话</b></button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <p>
+        <i id='icon'></i>
+    </p>
+    <br>
+    <div class="well" id="text" style="font-size: 18px;white-space: pre-line">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <b>tips:</b>
+    上知天文，下知地理，中知生活百态，包罗万象。明阴阳，懂八卦, 晓奇门, 知遁甲。
+    运筹帷幄之中，决胜千里之外。抱膝委坐自比管仲、乐毅之贤；笑傲风月，未出茅庐便知三分天下......
+    <br>
+
+</center>
+
+</body>
+<script>
+
+    function restSearch(){
+        $('#icon').addClass('fa fa-circle-o-notch fa-spin');
+        var key = $("#keyword").val().toString();
+        if (key != null && key != "") {
+            $.ajax({
+                type: "GET",
+                url: "/api/getMsg?keyword=" + key,
+                dataType: "text",
+                success: function(data) {
+                    $('#icon').removeClass('fa fa-circle-o-notch fa-spin');
+                    $("#text").text(data);
+                }
+            })
+        } else {
+            $('#icon').removeClass('fa fa-circle-o-notch fa-spin');
+            $("#text").text("好尴尬啊 , 说点什么吧 ......");
+        }
+    }
+
+    document.onkeydown = function (event) {
+        var e = event || window.event;
+        if (e && e.keyCode == 13) {
+            restSearch();
+        }
+    };
+
+</script>
+</html>
+
+<!--<head>-->
+    <!--&lt;!&ndash;<title>warning...</title>&ndash;&gt;-->
+    <!--&lt;!&ndash;<style type="text/css">&ndash;&gt;-->
+    <!--&lt;!&ndash;* {&ndash;&gt;-->
+    <!--&lt;!&ndash;margin: 0;&ndash;&gt;-->
+    <!--&lt;!&ndash;padding: 0;&ndash;&gt;-->
+    <!--&lt;!&ndash;box-sizing: border-box;&ndash;&gt;-->
+    <!--&lt;!&ndash;}&ndash;&gt;-->
+    <!--&lt;!&ndash;html,&ndash;&gt;-->
+    <!--&lt;!&ndash;body {&ndash;&gt;-->
+    <!--&lt;!&ndash;width: 100%;&ndash;&gt;-->
+    <!--&lt;!&ndash;height: 100%;&ndash;&gt;-->
+    <!--&lt;!&ndash;}&ndash;&gt;-->
+    <!--&lt;!&ndash;</style>&ndash;&gt;-->
+<!--</head>-->
+<!--<body>-->
+<!--&lt;!&ndash;<div style="height: 100%; width: 100%; position: relative">&ndash;&gt;-->
+<!--&lt;!&ndash;<br><br>&ndash;&gt;-->
+<!--&lt;!&ndash;<center>&ndash;&gt;-->
+<!--&lt;!&ndash;<h3>&ndash;&gt;-->
+<!--&lt;!&ndash;网站升级维护中...&ndash;&gt;-->
+<!--&lt;!&ndash;</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;</center>&ndash;&gt;-->
+<!--&lt;!&ndash;<div style="position: absolute; width: 100%; background-color: lightsteelblue; bottom:0">&ndash;&gt;-->
+<!--&lt;!&ndash;<center>&ndash;&gt;-->
+<!--&lt;!&ndash;京ICP备18063789号-2&ndash;&gt;-->
+<!--&lt;!&ndash;</center>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--</body>-->

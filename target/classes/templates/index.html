@@ -1,69 +1,69 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<HEAD>
+    <TITLE>本网站正在升级维护中</TITLE>
 
-<head>
-    <title>Hello World!</title>
-
-    <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
-
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-    <script src="./test.js"></script>
-
-</head>
-
-<body>
-    <center>
-        <br><br>
-        <img class="img-responsive" alt="App Logo" th:src="@{/ffgaliao.jpg}" th:width="200" th:height="200"/>
-          <br>
-        <h4 th:inline="text">你好, 我是尬聊师. <font color="#a52a2a">菲菲</font>!</h4>
-          <br>
-        <h5 th:inline="text">你有什么想和我说的嘛?</h5>
-          <br>
-        <div class="input-group" style="width: 620px">
-            <input type="text" class="form-control" style="width: 500px" id="keyword"  placeholder="在此输入你想要对我说的话 . . ." />
-            <div class="input-group-btn">
-                <button type="button" th:onclick="|javascript:restSearch()|" class="btn btn-primary" style="width: 120px"><b>提交会话</b></button>
-            </div>
-        </div>
-          <br>
-          <br>
-        <p>
-            <i id='icon'></i>
-        </p>
-          <br>
-        <div class="well" id="text" style="font-size: 18px"></div>
-    </center>
-
-</body>
-
-<script>
-
-    function restSearch(){
-        $('#icon').addClass('fa fa-circle-o-notch fa-spin');
-        var key = $("#keyword").val().toString();
-        if (key != null && key != "") {
-            $.ajax({
-                type: "GET",
-                url: "/api/getMsg?keyword=" + key,
-                dataType: "text",
-                success: function(data) {
-                    $('#icon').removeClass('fa fa-circle-o-notch fa-spin');
-                    $("#text").text(data);
-                }
-            })
-        } else {
-            alert("请输入对话内容");
-        }
+    <META name=author content="">
+    <META content="text/html; charset=utf-8" http-equiv=Content-Type>
+    <STYLE>HTML {
+        HEIGHT: 100%; _overflow-x: hidden; -webkit-text-size-adjust: none
     }
+    BODY {
+        MARGIN: 0px; FONT-FAMILY: "Microsoft YaHei", tahoma, arial, simsun; HEIGHT: 100%
+    }
+    P {
+        MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+    }
+    H1 {
+        MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+    }
+    H2 {
+        MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+    }
+    H3 {
+        MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+    }
+    H4 {
+        MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+    }
+    .main {
+        MARGIN: 0px auto; WIDTH: 850px
+    }
+    .container {
+        PADDING-TOP: 180px
+    }
+    H1 {
+        FONT-SIZE: 42px
+    }
+    H2 {
+        MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px; FONT-SIZE: 22px; FONT-WEIGHT: 100
+    }
+    H3 {
+        COLOR: #2f2d2e; FONT-SIZE: 26px
+    }
+    .Countdown {
+        FONT-FAMILY: tahoma, arial, simsun; COLOR: #4a4a4a; FONT-SIZE: 30px; PADDING-TOP: 30px
+    }
+    .Countdown SPAN {
+        TEXT-ALIGN: center; LINE-HEIGHT: 55px; WIDTH: auto; DISPLAY: inline-block; MARGIN-LEFT: 2px
+    }
+    .Countdown .bd {
+        BACKGROUND-IMAGE: none; WIDTH: 16px
+    }
+    .content {
+        BORDER-BOTTOM: #bbb 1px solid; BORDER-LEFT: #bbb 1px solid; PADDING-BOTTOM: 85px; MARGIN: auto; PADDING-LEFT: 85px; WIDTH: 460px; PADDING-RIGHT: 85px; BORDER-TOP: #bbb 1px solid; BORDER-RIGHT: #bbb 1px solid; PADDING-TOP: 85px; border-radius: 20px
+    }
+    </STYLE>
 
-</script>
+    <META name=GENERATOR content="MSHTML 8.00.7601.19104"></HEAD>
+
+<BODY>
+    <DIV class=main>
+        <DIV class=container>
+            <DIV class=content>
+                <H1>本网站正在升级维护中...</H1>
+            </DIV>
+        </DIV>
+    </DIV>
+</BODY>
 </html>
