@@ -26,8 +26,7 @@ spring:
         max-idle: 20
   datasource:
     name: test
-    #      百度数据库
-    url: jdbc:mysql://106.13.34.237:3306/sunny?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://127.0.0.1:3306/sunny?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull
     username: root
     password: 123456
 
