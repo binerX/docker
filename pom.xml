@@ -11,7 +11,7 @@
     <groupId>com.bin.yang</groupId>
     <artifactId>sunny</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>byOneSell</name>
+    <name>sunny</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
