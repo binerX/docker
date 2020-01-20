@@ -70,13 +70,4 @@ public class fastController {
         return hello.toString();
     }
 
-    @RequestMapping(value = "/hello" , method = RequestMethod.GET)
-    @ResponseBody
-    public String hello (){
-
-        System.out.println("hello");
-
-        return "hello";
-    }
-
 }
