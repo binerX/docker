@@ -35,10 +35,6 @@ public class fastController {
     @Autowired
     private RedisTemplate redisTemplate;
 
-
-
-
-
     @RequestMapping(value = "/hello" , method = RequestMethod.GET)
     @ResponseBody
     public String hello (String id){
@@ -48,8 +44,6 @@ public class fastController {
         return "hello";
     }
 
-
-
     @RequestMapping(value = "/helloPage" , method = RequestMethod.GET)
     @ResponseBody
     public List<Object> helloPage (){
@@ -58,10 +52,6 @@ public class fastController {
 
         return objects;
     }
-
-
-
-
 
     @RequestMapping(value = "/testDruid" , method = RequestMethod.GET)
     @ResponseBody
