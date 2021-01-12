@@ -43,6 +43,6 @@ public class RobotController {
             System.out.println(new Date().toLocaleString()+"-----"+content);
             return content;
         }
-        return "稍后再试 , 菲菲正在策划大事 . ";
+        return "稍后再试 , 正在策划大事 . ";
     }
 }

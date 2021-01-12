@@ -13,7 +13,7 @@ spring:
 
   redis:
       database: 0
-      host: 127.0.0.1
+      host: 72.21.0.8
       port: 6379
       password: by123456
       jedis:
@@ -21,7 +21,7 @@ spring:
           max-idle: 20
   datasource:
       name: test
-      url: jdbc:mysql://127.0.0.1:3306/datasou?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull
+      url: jdbc:mysql://72.21.0.8:3306/datasou?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
       username: root
       password: root
 
